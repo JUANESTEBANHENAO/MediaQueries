@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+html,body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    font-size: 20px;
+    height: 7vh;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+nav ul{
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vh;
+    list-style: none;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;  
+    color: white;
+}
+
+.parrafo1{
+    color: white;
+    font-weight: 300;
+}
+
+.download{
+background-image: linear-gradient(to right, purple,blue);
+border-radius: 10px;
+padding: 5px;
+width: 200px;
+height: 50px;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 50vh;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}
+
+.texto-seccion1{
+    
+    background-color: rgb(46, 37, 80);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    align-items: start ;
+ 
+
+}
+
+.telefono-seccion1{
+    
+    width: 49%;
+    display: flex;
+    align-items: center;
+    background-image: url(imagenes/Hojass.jpg);
+    border: 5px solid;
+ 
+}
+
+.telefono {
+    margin-left: 80px; 
+    display: flex;
+    width: 200px;
+    height: 400px;
+
+}
+
+.product-page{
+    font-size: 70px;
+    color: white;
+    font-weight:bold;
+}
+
+.botoones{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    border: solid 1px grey;
+    width: 40%;
+    padding: 5px;
+    
+}
+
+.botoon1{
+    background-color: white;
+    padding: 5px;
+    width: 45%;
+    height: 50px;
+    
+}
+.botoon1 a {    
+ color: #F41787;
+
+}
+.botoon2{
+    background-color: black;;
+    padding: 5px;
+    width: 45%;
+    height: 50px;  
+}
+
+.medium{
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #F41787;
+    font-size: 45px;
+}    
+.medium2{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.izquierda{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.derecha{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.laptop{
+    width: 20vw;
+    height: auto;
+ 
+}
+.A{
+    color: #F41787;
+}
+.market{
+    color: #F41787;
+}
+
+.tercera{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(30, 23, 47);
+    color: white;
+}
+
+.plans{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+
+}
+
+.plans2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 2vh;
+}
+
+.cuarta{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    background-color: rgb(30, 23, 47);
+    color: white;
+}
+
+
+.baja{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 23, 47);
+    color: white;
+    padding-bottom: 9vh;
+}
+.hoja{
+    width: 50px;
+    height: 50px;
+
+}
+
+.etiquetas{
+    width: 300px;
+    
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right:1vw;
+    background-color: white;
+    color: black;
+
+}
+
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: 700;
+    height: 30%;
+    padding: 20px;
+}
+
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin: 23px;
+}
+.contenido ul li{
+    list-style: none;
+}
+
+.lorem{
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.botoon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    background-color:white;
+    padding: 15px;
+   
+    
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(202, 27, 109);
+    color: white;
+    
+}
+
+#numero3{
+    background-color: black;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    line-height: 40px;
+    text-align: center;
+    padding: 25px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+@media screen and (max-width:1200px) {
+        header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        font-size: 20px;
+        height: 7vh;
+    }
+    .izquierda{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .laptop{
+        width: 28vw;
+        height: 20vw;
+    }
+
+    nav ul{
+
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90vh;
+        list-style: none;
+        margin-right: 30px;
+    }
+    
+
+}
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        width: 80%;
+        font-size: 20px;
+        height: 7vh;
+    }
+
+    .baja {
+        flex-wrap: wrap;
+    }
+.etiquetas {
+    width: 50%;
+
+}
+nav ul{
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    width: 10vh;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 70%;
+}
+.download{
+    background-image: linear-gradient(to right, purple,blue);
+    border-radius: 10px;
+    padding: 4px;
+    width: 10px;
+    height: 30px;
+    font-size:70% ;
+    }
+
+}
+.logo{
+  
+    width: 11vh;
+}
+.etiquetas{
+    width: 300px;
+    margin-top: 15px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+
+}
+
+
+@media screen and (max-width:768px) {
+    header{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        font-size: 20px;
+        height: 7vh;
+    }
+    .baja {
+        flex-wrap: wrap;
+    }
+.etiquetas {
+    width: 50%;
+}
+nav ul{
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    width: 60vh;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:992px) {
+    header{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        font-size: 20px;
+        height: 7vh;
+    }
+
+    .laptop{
+        width: 28vw;
+        height: 20vw;
+    }
+    
+    
+    .logo{
+        margin-left: 3px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .izquierda{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+}
+nav ul{
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 70vh;
+    list-style: none;
+    margin-right: 30px;
+}
+.download{
+    background-image: linear-gradient(to right, purple,blue);
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    }
+    
+}
